@@ -1,0 +1,33 @@
+CSS Selector
+---------------------------------------------------------------
+Rules:------
+1. TAG   and   ID------------------->TAG#ID
+2. TAG   and   class---------------->TAG.CLASS
+3. TAG   and   attribute------------>TAG[ATTRIBUTE=VALUE]
+4. TAG,CLASS,ATTRIBUTE-------------->TAG.CLASS[ATTRIBUTE=VALUE]
+
+-----------------------------------------------------------------
+https://money.rediff.com/gainers
+-----------------------------------------------------------------
+XPATH
+-----------------------------------------------------------------
+1.Xpath options ------->OR
+2.Xpath options ------->AND
+3.Xpath options----->contains()
+tagname[contains(@attribute,'value')]
+4.Xpath options---->starts-with()
+5.chained xpath
+-------------------------------------------------------------------
+XPATH AXES:
+-------------------------------------------------------------------
+1.Self
+2.Parent
+3.Child
+4.Ancestor
+5.Descendant
+6.Following
+7.Following-sibling
+8.Preceding
+9.Preceding-sibling
+
+
