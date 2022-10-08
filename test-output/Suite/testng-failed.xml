@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="Docker.TestOnDocker2">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- Docker.TestOnDocker2 -->
+      <class name="Docker.TestOnDocker">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- Docker.TestOnDocker -->
+      <class name="Docker.TestOnDocker3">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- Docker.TestOnDocker3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

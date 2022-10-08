@@ -1,5 +1,7 @@
 package SeleniumSessions2022;
 
+import java.io.IOException;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,13 +10,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class JavaScriptAlert {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\pankaj.kumar\\workspace\\Seleniumsessions2022\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+		
 		driver.findElement(By.xpath("//input[@title='Sign in']")).click();
+		
 		Alert alert=driver.switchTo().alert();
 		System.out.println(alert.getText());
 		String text=alert.getText();
@@ -24,7 +28,7 @@ public class JavaScriptAlert {
 		}else {
 			System.out.println("Incorrect Alert message");
 		}
-		
+		//Screenshots.screenCapture("C:\\Users\\pankaj.kumar\\workspace\\Seleniumsessions2022\\Drivers","popup", driver);
 		alert.accept();
 		
 		driver.quit();

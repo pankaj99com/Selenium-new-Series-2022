@@ -24,9 +24,11 @@ public class HandlingDropDownWithSelectClass {
 		WebElement element=driver.findElement(By.xpath("//select[@id='searchLanguage']"));
 		Select select=new Select(element);
 		List<WebElement> options=select.getOptions();
+		System.out.println(options.size());
 		for(int i=0;i<options.size();i++) {
 			System.out.println(options.get(i).getText()+" --->"+i);
 			select.selectByIndex(25);
+		
 			
 			
 		}

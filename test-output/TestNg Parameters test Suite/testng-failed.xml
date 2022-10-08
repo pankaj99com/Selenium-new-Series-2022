@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNg Parameters test Suite]">
+  <listeners>
+    <listener class-name="ExtentReports.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test login feature for CRMPRO 1(failed)">
+    <parameter name="password" value="Admin@12345"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="Env" value="QA"/>
+    <parameter name="url" value="https://classic.freecrm.com/login.cfm"/>
+    <parameter name="username" value="pankaj99"/>
+    <classes>
+      <class name="TestNGConcepts.ParametersInTestNG">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestNGConcepts.ParametersInTestNG -->
+    </classes>
+  </test> <!-- Test login feature for CRMPRO 1(failed) -->
+</suite> <!-- Failed suite [TestNg Parameters test Suite] -->

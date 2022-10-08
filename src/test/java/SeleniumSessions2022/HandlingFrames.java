@@ -23,8 +23,13 @@ public class HandlingFrames {
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("pankaj99");
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Admin@12345");
 		driver.findElement(By.xpath("//input[@value='Login']")).click();
-		driver.switchTo().frame("mainpanel");
+		//driver.switchTo().frame("mainpanel");
+		driver.switchTo().frame(1);
+		////a[@title='Contacts']
 		driver.findElement(By.xpath("//a[contains(text(),'Contacts')]")).click();
+		System.out.println(driver.getTitle());
+		
+		driver.quit();
 	}
 
 }

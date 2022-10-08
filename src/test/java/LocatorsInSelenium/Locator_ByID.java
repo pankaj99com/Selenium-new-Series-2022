@@ -13,6 +13,8 @@ public class Locator_ByID {
 		driver.get("https://testmatick.com/best-demo-websites-to-perform-software-test-automation/");
 		//<input name="s" id="s" type="text" placeholder="Search..." value="" style="" xpath="1">
 		driver.findElement(By.id("s")).sendKeys("java");
+		
+		
 	}
 
 }

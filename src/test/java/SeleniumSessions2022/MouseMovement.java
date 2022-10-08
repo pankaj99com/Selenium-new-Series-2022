@@ -17,19 +17,27 @@ public class MouseMovement {
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		//driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);  deprecated in Selenium 4
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		//driver.manage().timeouts().pageLoadTimeout(20,TimeUnit.SECONDS); deprecated in Selenium 4
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		driver.get("https://classic.crmpro.com/index.html");
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("pankaj99");
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Admin@12345");
 		driver.findElement(By.xpath("//input[@value='Login']")).click();
 		driver.switchTo().frame("mainpanel");
-		Actions action= new Actions(driver);
-		action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Contacts')]"))).build().perform();
-		Thread.sleep(2000);
+		//driver.switchTo().newWindow(typeHint)
 		
-		driver.findElement(By.xpath("(//a[@title='Combined Form'][normalize-space()='Combined Form'])[2]")).click();
+		
+		Actions action= new Actions(driver);
+		
+		
+		action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Contacts')]"))).build().perform();
+		//Thread.sleep(2000);
+		//div[@id='navmenu']/ul/li[4]/ul/li[2]
+		
+		//a[@title='Combined Form'][normalize-space()='Combined Form'])[2]
+		driver.findElement(By.xpath("//div[@id='navmenu']/ul/li[4]/ul/li[2]")).click();
+	
 	}
 
 }

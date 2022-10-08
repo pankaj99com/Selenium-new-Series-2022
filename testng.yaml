@@ -1,0 +1,8 @@
+name: Suite
+listeners:
+  - RetryAnalyzerDemo.MyAnnotationTransformer
+tests:
+  - name: AnnotationTransformer
+    classes:
+      - RetryAnalyzerDemo.MyTestCase1
+
