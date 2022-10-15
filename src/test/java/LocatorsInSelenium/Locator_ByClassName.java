@@ -2,7 +2,10 @@ package LocatorsInSelenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import JavaScriptUtility.JavaScriptUtil;
 
 public class Locator_ByClassName {
 
@@ -17,8 +20,11 @@ public class Locator_ByClassName {
 		 * placeholder="Search Product" class="form-control input-lg" xpath="1">
 		 * 
 		 */
-
+		WebElement searchbox = driver.findElement(By.className("input-lg"));
+		JavaScriptUtil.flash(driver, searchbox);
+		JavaScriptUtil.drawBorder(searchbox, driver);
 		driver.findElement(By.className("input-lg")).sendKeys("Sweater");
-	}
+		
+	} 
 
 }

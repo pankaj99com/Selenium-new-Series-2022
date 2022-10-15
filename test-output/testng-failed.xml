@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
-  <test name="Test(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Docker.TestOnDocker2">
+      <class name="TestNGConcepts.MultiBrowser">
         <methods>
-          <include name="Test1"/>
+          <include name="verifyTitleTest"/>
         </methods>
-      </class> <!-- Docker.TestOnDocker2 -->
-      <class name="Docker.TestOnDocker">
-        <methods>
-          <include name="Test1"/>
-        </methods>
-      </class> <!-- Docker.TestOnDocker -->
-      <class name="Docker.TestOnDocker3">
-        <methods>
-          <include name="Test1"/>
-        </methods>
-      </class> <!-- Docker.TestOnDocker3 -->
+      </class> <!-- TestNGConcepts.MultiBrowser -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
