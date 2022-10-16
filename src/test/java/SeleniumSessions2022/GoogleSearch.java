@@ -1,5 +1,6 @@
 package SeleniumSessions2022;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
@@ -13,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class GoogleSearch {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 
 		WebDriverManager.chromedriver().setup();
 		// System.setProperty("webdriver.chrome.driver",
@@ -24,6 +25,7 @@ public class GoogleSearch {
 		driver.get("https://www.google.com/");
 		WebElement searchbox=driver.findElement(By.xpath("//input[@title='Search']"));
 		JavaScriptUtil.drawBorder(searchbox, driver);
+		ScreenShots.ScreenShots.CaptureScreenShot("C:\\Users\\pankaj.kumar\\workspace\\Seleniumsessions2022\\src\\test\\java\\SeleniumSessions2022\\Google.png", driver);
 		driver.findElement(By.xpath("//input[@title='Search']")).sendKeys("Testing");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));// allowing
 																			// list

@@ -71,7 +71,7 @@ public class XpathAxes {
 				.findElements(By.xpath("//a[normalize-space()='BSL Ltd']/ancestor::tr/following::tr"));
 
 		System.out.println("Total following nodes:" + following_node.size());
-		ScreenShots.ScreenShots.Screencapture("D://Pankaj-QA//ScriptsScreeshots//rediffmpney.png", driver);
+		ScreenShots.ScreenShots.CaptureScreenShot("D://Pankaj-QA//ScriptsScreeshots//rediffmpney.png", driver);
 
 		// following-sibling
 

@@ -22,7 +22,7 @@ public class WaitsInSelenium {
 		driver=new ChromeDriver();
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 		
-		ScreenShots.ScreenShots.Screencapture("D://Pankaj-QA//ScriptsScreeshots//rediffmail.png", driver);
+		ScreenShots.ScreenShots.CaptureScreenShot("D://Pankaj-QA//ScriptsScreeshots//rediffmail.png", driver);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebElement element=driver.findElement(By.xpath("//input[@title='Sign in']"));
 		
