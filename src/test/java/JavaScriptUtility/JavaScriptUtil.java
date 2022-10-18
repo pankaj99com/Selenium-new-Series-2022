@@ -12,6 +12,8 @@ public class JavaScriptUtil {
 		String bgcolor = element.getCssValue("backgroundColor");
 		for (int i = 0; i < 30; i++) {
 			changeColor("#00FF00", element, driver);
+			changeColor("#0000FF", element, driver);
+			changeColor("#FF0000", element, driver);
 			changeColor(bgcolor, element, driver);
 
 		}

@@ -11,10 +11,15 @@ import org.openqa.selenium.io.FileHandler;
 
 public class ScreenShots {
 	WebDriver driver=null;
-	public static void CaptureScreenShot(String filepath,WebDriver driver) throws IOException {
+	public static void CaptureScreenShot(String filepath,WebDriver driver) {
 	TakesScreenshot ts=(TakesScreenshot) driver;
 	File src=ts.getScreenshotAs(OutputType.FILE);
-	FileHandler.copy(src, new File(filepath));
+	try {
+		FileHandler.copy(src, new File(filepath));
+	} catch (IOException e) {
+		
+		e.printStackTrace();
+	}
 	
 	
 	
