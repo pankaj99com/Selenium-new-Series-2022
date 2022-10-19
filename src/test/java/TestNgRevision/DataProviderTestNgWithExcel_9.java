@@ -71,7 +71,7 @@ public class DataProviderTestNgWithExcel_9 {
 
 	@DataProvider(name = "TestData")
 	public Object[][] getData() throws IOException {
-		XLUtility excel= new XLUtility("C:\\Users\\pankaj.kumar\\workspace\\Seleniumsessions2022\\ExcelData\\Countrydata.xlsx");
+		XLUtility excel= new XLUtility(".\\ExcelData\\Countrydata.xlsx");
 		int rows=excel.getRowCount("Sheet2");
 		int cols=excel.getCellCount("Sheet2", 1);
 		Object data[][]=new String[rows][cols];

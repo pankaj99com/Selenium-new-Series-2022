@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="85520" started-at="2022-10-19T10:08:05Z" finished-at="2022-10-19T10:09:30Z">
+  <suite name="Default suite" duration-ms="90076" started-at="2022-10-19T10:14:48Z" finished-at="2022-10-19T10:16:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="85520" started-at="2022-10-19T10:08:05Z" finished-at="2022-10-19T10:09:30Z">
+    <test name="Default test" duration-ms="90076" started-at="2022-10-19T10:14:48Z" finished-at="2022-10-19T10:16:18Z">
       <class name="TestNgRevision.DataProviderTestNgWithExcel_9">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="setup" is-config="true" duration-ms="14578" started-at="2022-10-19T15:38:10Z" finished-at="2022-10-19T15:38:25Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="setup" is-config="true" duration-ms="16253" started-at="2022-10-19T15:44:56Z" finished-at="2022-10-19T15:45:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="loginTest" duration-ms="7367" started-at="2022-10-19T15:38:25Z" data-provider="TestData" finished-at="2022-10-19T15:38:32Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="loginTest" duration-ms="7995" started-at="2022-10-19T15:45:12Z" data-provider="TestData" finished-at="2022-10-19T15:45:20Z">
           <params>
             <param index="0">
               <value>
@@ -32,15 +32,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="teardown" is-config="true" duration-ms="1256" started-at="2022-10-19T15:38:32Z" finished-at="2022-10-19T15:38:33Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="teardown" is-config="true" duration-ms="2080" started-at="2022-10-19T15:45:20Z" finished-at="2022-10-19T15:45:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="setup" is-config="true" duration-ms="9371" started-at="2022-10-19T15:38:33Z" finished-at="2022-10-19T15:38:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="setup" is-config="true" duration-ms="9411" started-at="2022-10-19T15:45:23Z" finished-at="2022-10-19T15:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="loginTest" duration-ms="3558" started-at="2022-10-19T15:38:43Z" data-provider="TestData" finished-at="2022-10-19T15:38:46Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="loginTest" duration-ms="2790" started-at="2022-10-19T15:45:32Z" data-provider="TestData" finished-at="2022-10-19T15:45:35Z">
           <params>
             <param index="0">
               <value>
@@ -61,15 +61,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="teardown" is-config="true" duration-ms="1658" started-at="2022-10-19T15:38:46Z" finished-at="2022-10-19T15:38:48Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="teardown" is-config="true" duration-ms="1746" started-at="2022-10-19T15:45:35Z" finished-at="2022-10-19T15:45:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="setup" is-config="true" duration-ms="8538" started-at="2022-10-19T15:38:48Z" finished-at="2022-10-19T15:38:56Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="setup" is-config="true" duration-ms="9093" started-at="2022-10-19T15:45:36Z" finished-at="2022-10-19T15:45:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="loginTest" duration-ms="2291" started-at="2022-10-19T15:38:56Z" data-provider="TestData" finished-at="2022-10-19T15:38:59Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="loginTest" duration-ms="2681" started-at="2022-10-19T15:45:46Z" data-provider="TestData" finished-at="2022-10-19T15:45:48Z">
           <params>
             <param index="0">
               <value>
@@ -90,15 +90,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="teardown" is-config="true" duration-ms="1741" started-at="2022-10-19T15:38:59Z" finished-at="2022-10-19T15:39:00Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="teardown" is-config="true" duration-ms="1612" started-at="2022-10-19T15:45:48Z" finished-at="2022-10-19T15:45:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="setup" is-config="true" duration-ms="9608" started-at="2022-10-19T15:39:00Z" finished-at="2022-10-19T15:39:10Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="setup" is-config="true" duration-ms="8860" started-at="2022-10-19T15:45:50Z" finished-at="2022-10-19T15:45:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="loginTest" duration-ms="2608" started-at="2022-10-19T15:39:10Z" data-provider="TestData" finished-at="2022-10-19T15:39:13Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="loginTest" duration-ms="2640" started-at="2022-10-19T15:45:59Z" data-provider="TestData" finished-at="2022-10-19T15:46:01Z">
           <params>
             <param index="0">
               <value>
@@ -119,15 +119,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="teardown" is-config="true" duration-ms="1482" started-at="2022-10-19T15:39:13Z" finished-at="2022-10-19T15:39:14Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="teardown" is-config="true" duration-ms="1314" started-at="2022-10-19T15:46:01Z" finished-at="2022-10-19T15:46:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="setup" is-config="true" duration-ms="8421" started-at="2022-10-19T15:39:14Z" finished-at="2022-10-19T15:39:23Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="setup" is-config="true" duration-ms="8443" started-at="2022-10-19T15:46:03Z" finished-at="2022-10-19T15:46:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="loginTest" duration-ms="6720" started-at="2022-10-19T15:39:23Z" data-provider="TestData" finished-at="2022-10-19T15:39:29Z">
+        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="loginTest" duration-ms="5720" started-at="2022-10-19T15:46:11Z" data-provider="TestData" finished-at="2022-10-19T15:46:17Z">
           <params>
             <param index="0">
               <value>
@@ -184,7 +184,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="teardown" is-config="true" duration-ms="1163" started-at="2022-10-19T15:39:29Z" finished-at="2022-10-19T15:39:30Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestNgRevision.DataProviderTestNgWithExcel_9@612fc6eb]" name="teardown" is-config="true" duration-ms="1348" started-at="2022-10-19T15:46:17Z" finished-at="2022-10-19T15:46:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
