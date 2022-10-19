@@ -3,17 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNgRevision.DependsOnGroupsTestNg_7">
+      <class name="TestNgRevision.DataProviderTestNgWithExcel_9">
         <methods>
           <include name="setup"/>
-          <include name="login"/>
-          <include name="B"/>
-          <include name="tearDown"/>
-          <include name="C"/>
-          <include name="contactsTest"/>
-          <include name="homeTest"/>
+          <include name="loginTest" invocation-numbers="4"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- TestNgRevision.DependsOnGroupsTestNg_7 -->
+      </class> <!-- TestNgRevision.DataProviderTestNgWithExcel_9 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

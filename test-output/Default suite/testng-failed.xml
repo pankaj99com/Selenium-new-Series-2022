@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNGConcepts.MultiBrowser">
+      <class name="TestNgRevision.DataProviderTestNgWithExcel_9">
         <methods>
-          <include name="verifyTitleTest"/>
+          <include name="setup"/>
+          <include name="loginTest" invocation-numbers="4"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- TestNGConcepts.MultiBrowser -->
+      </class> <!-- TestNgRevision.DataProviderTestNgWithExcel_9 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
