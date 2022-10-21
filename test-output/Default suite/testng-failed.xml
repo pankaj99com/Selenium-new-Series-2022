@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNgRevision.DataProviderTestNgWithExcel_9">
+      <class name="TestNgRevision.SoftAssertDemo">
         <methods>
-          <include name="setup"/>
-          <include name="loginTest" invocation-numbers="4"/>
-          <include name="teardown"/>
+          <include name="end"/>
+          <include name="begin"/>
         </methods>
-      </class> <!-- TestNgRevision.DataProviderTestNgWithExcel_9 -->
+      </class> <!-- TestNgRevision.SoftAssertDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

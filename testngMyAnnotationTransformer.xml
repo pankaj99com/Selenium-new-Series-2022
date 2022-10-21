@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="TestNgRevision.MyAnnotationTransformer"></listener>
+
+	</listeners>
+	<test name="Test retrying logic at class level">
+
+		<classes>
+			<class name="TestNgRevision.MyTestcase2"></class>
+			<class name="TestNgRevision.GoogleAnnotationTesting_2"></class>
+			
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -56,6 +56,7 @@ public class GoogleAnnotationTesting_2 {
 	@Test(priority=3,groups="test1")
 	public void A() {
 		System.out.println("This is Method A");
+		Assert.assertEquals(true, false);
 	}
 
 	@Test(priority=3,groups="test")
